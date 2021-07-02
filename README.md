@@ -13,7 +13,7 @@
 <br />
   <p>
     Manage your scrum team tasks efficiently with Scrum Master. Create <strong>Kanban cards</strong> for your tasks, so you and your team members would be able to visualize and keep track of your workflow.
-    Scrum Master app uses <strong>Firebase Auth</strong> for managing and autheticating users, and <strong>Firebase Realtime Database</strong> for storing data.
+    Scrum Master app uses <strong>Firebase Auth</strong> for managing and authenticating users, and <strong>Firebase Realtime Database</strong> for storing data.
   </p>
 <br />
 
