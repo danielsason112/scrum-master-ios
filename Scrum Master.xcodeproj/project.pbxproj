@@ -3,18 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23287E9E267A404F009DAC4E /* BoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23287E9D267A404F009DAC4E /* BoardTableViewCell.swift */; };
+		23287EA2267A9459009DAC4E /* BoardTabBarConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23287EA1267A9459009DAC4E /* BoardTabBarConroller.swift */; };
+		2343F9D02677E8F5008619BA /* ProfilesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343F9CF2677E8F5008619BA /* ProfilesRepository.swift */; };
 		2350BAA0266A620E0044429E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2350BA9F266A620E0044429E /* AppDelegate.swift */; };
 		2350BAA2266A620E0044429E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2350BAA1266A620E0044429E /* SceneDelegate.swift */; };
-		2350BAA4266A620E0044429E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2350BAA3266A620E0044429E /* ViewController.swift */; };
 		2350BAA7266A620E0044429E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2350BAA5266A620E0044429E /* Main.storyboard */; };
 		2350BAA9266A620F0044429E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2350BAA8266A620F0044429E /* Assets.xcassets */; };
 		2350BAAC266A620F0044429E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2350BAAA266A620F0044429E /* LaunchScreen.storyboard */; };
 		2350BAB7266A620F0044429E /* Scrum_MasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2350BAB6266A620F0044429E /* Scrum_MasterTests.swift */; };
 		2350BAC2266A620F0044429E /* Scrum_MasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2350BAC1266A620F0044429E /* Scrum_MasterUITests.swift */; };
+		2350BAD0266A631D0044429E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2350BACF266A631D0044429E /* GoogleService-Info.plist */; };
+		2357515C267557C000849071 /* TeamDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357515B267557C000849071 /* TeamDetailsViewController.swift */; };
+		2361E22D268620C90014E905 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2361E22C268620C90014E905 /* ProfileTableViewCell.swift */; };
+		23650DFB266E8FF600D72012 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23650DFA266E8FF600D72012 /* AuthViewController.swift */; };
+		236664C7267F9D8900BFC693 /* TaskCollectionViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236664C6267F9D8900BFC693 /* TaskCollectionViewHeaderCell.swift */; };
+		2399E5A526765AE70039B334 /* BoardsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399E5A426765AE70039B334 /* BoardsListViewController.swift */; };
+		2399E5A7267674140039B334 /* CreateBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399E5A6267674140039B334 /* CreateBoardViewController.swift */; };
+		2399E5A92676789F0039B334 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399E5A82676789F0039B334 /* Board.swift */; };
+		2399E5AD267694180039B334 /* DateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2399E5AC267694180039B334 /* DateConverter.swift */; };
+		239A2C512671128400ED5109 /* TeamsListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A2C502671128400ED5109 /* TeamsListDataSource.swift */; };
+		239A2C54267134A100ED5109 /* TeamCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A2C52267134A100ED5109 /* TeamCardTableViewCell.swift */; };
+		239A2C55267134A100ED5109 /* TeamCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239A2C53267134A100ED5109 /* TeamCardTableViewCell.xib */; };
+		239A2C5726715E5800ED5109 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239A2C5626715E5800ED5109 /* Profile.swift */; };
+		23A786D42680D67D00F45263 /* UpdateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A786D32680D67D00F45263 /* UpdateTaskViewController.swift */; };
+		23C11473267BC34700739CAF /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C11472267BC34700739CAF /* UITextField+Extension.swift */; };
+		23C11476267BE54000739CAF /* TaskCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C11474267BE54000739CAF /* TaskCardTableViewCell.swift */; };
+		23C11477267BE54000739CAF /* TaskCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C11475267BE54000739CAF /* TaskCardTableViewCell.xib */; };
+		23C1147A267BE86500739CAF /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C11478267BE86500739CAF /* LogTableViewCell.swift */; };
+		23C1147B267BE86500739CAF /* LogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C11479267BE86500739CAF /* LogTableViewCell.xib */; };
+		23C823302672AB0900CC140F /* TeamsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C8232F2672AB0900CC140F /* TeamsRepository.swift */; };
+		23C823342672B7ED00CC140F /* CreateTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C823332672B7ED00CC140F /* CreateTeamViewController.swift */; };
+		23C823372672B9FD00CC140F /* CommonValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C823362672B9FD00CC140F /* CommonValidator.swift */; };
+		23DB997E267E97DC004342F3 /* TasksCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DB997D267E97DC004342F3 /* TasksCollectionViewController.swift */; };
+		23DB9980267E99CF004342F3 /* TaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DB997F267E99CF004342F3 /* TaskCollectionViewCell.swift */; };
+		23E2951C266FDDC700CF8AA7 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2951B266FDDC700CF8AA7 /* RegisterController.swift */; };
+		23E2951E26700B4000CF8AA7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2951D26700B4000CF8AA7 /* LoginViewController.swift */; };
+		23E295202670104300CF8AA7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2951F2670104300CF8AA7 /* MainViewController.swift */; };
+		23E29524267021A100CF8AA7 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E29523267021A100CF8AA7 /* Team.swift */; };
+		23E34B0D26791F3D00B50D21 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E34B0C26791F3D00B50D21 /* Task.swift */; };
+		23E34B0F26791FC200B50D21 /* TaskStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E34B0E26791FC200B50D21 /* TaskStatus.swift */; };
+		23E34B13267949C500B50D21 /* TasksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E34B12267949C500B50D21 /* TasksListViewController.swift */; };
+		23E34B1526794A4C00B50D21 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E34B1426794A4C00B50D21 /* CreateTaskViewController.swift */; };
+		23E34B1A267955DD00B50D21 /* BoardCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E34B18267955DD00B50D21 /* BoardCardTableViewCell.swift */; };
+		23E34B1B267955DD00B50D21 /* BoardCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23E34B19267955DD00B50D21 /* BoardCardTableViewCell.xib */; };
+		69B53A2FD1A9A79BDEC33F8B /* Pods_Scrum_Master_Scrum_MasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363E94CF86D00C0AE1DB560C /* Pods_Scrum_Master_Scrum_MasterUITests.framework */; };
+		C979A3B44009C829ABD03B11 /* Pods_Scrum_MasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47E4B221CEBEDEAC03158F5 /* Pods_Scrum_MasterTests.framework */; };
+		D16F1BC97322A9F01B4A78D1 /* Pods_Scrum_Master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5636DE5315F914AEDA38B5 /* Pods_Scrum_Master.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +74,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04502B177640049BFF1EC22A /* Pods-Scrum Master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrum Master.debug.xcconfig"; path = "Target Support Files/Pods-Scrum Master/Pods-Scrum Master.debug.xcconfig"; sourceTree = "<group>"; };
+		23287E9D267A404F009DAC4E /* BoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTableViewCell.swift; sourceTree = "<group>"; };
+		23287EA1267A9459009DAC4E /* BoardTabBarConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTabBarConroller.swift; sourceTree = "<group>"; };
+		2343F9CF2677E8F5008619BA /* ProfilesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesRepository.swift; sourceTree = "<group>"; };
 		2350BA9C266A620E0044429E /* Scrum Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrum Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2350BA9F266A620E0044429E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2350BAA1266A620E0044429E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2350BAA3266A620E0044429E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2350BAA6266A620E0044429E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2350BAA8266A620F0044429E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2350BAAB266A620F0044429E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +91,48 @@
 		2350BABD266A620F0044429E /* Scrum MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrum MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2350BAC1266A620F0044429E /* Scrum_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrum_MasterUITests.swift; sourceTree = "<group>"; };
 		2350BAC3266A620F0044429E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2350BACF266A631D0044429E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2357515B267557C000849071 /* TeamDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewController.swift; sourceTree = "<group>"; };
+		2361E22C268620C90014E905 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		23650DFA266E8FF600D72012 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		236664C6267F9D8900BFC693 /* TaskCollectionViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCollectionViewHeaderCell.swift; sourceTree = "<group>"; };
+		2399E5A426765AE70039B334 /* BoardsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardsListViewController.swift; sourceTree = "<group>"; };
+		2399E5A6267674140039B334 /* CreateBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBoardViewController.swift; sourceTree = "<group>"; };
+		2399E5A82676789F0039B334 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		2399E5AC267694180039B334 /* DateConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverter.swift; sourceTree = "<group>"; };
+		239A2C502671128400ED5109 /* TeamsListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListDataSource.swift; sourceTree = "<group>"; };
+		239A2C52267134A100ED5109 /* TeamCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCardTableViewCell.swift; sourceTree = "<group>"; };
+		239A2C53267134A100ED5109 /* TeamCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCardTableViewCell.xib; sourceTree = "<group>"; };
+		239A2C5626715E5800ED5109 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		23A786D32680D67D00F45263 /* UpdateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskViewController.swift; sourceTree = "<group>"; };
+		23C11472267BC34700739CAF /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		23C11474267BE54000739CAF /* TaskCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardTableViewCell.swift; sourceTree = "<group>"; };
+		23C11475267BE54000739CAF /* TaskCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCardTableViewCell.xib; sourceTree = "<group>"; };
+		23C11478267BE86500739CAF /* LogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableViewCell.swift; sourceTree = "<group>"; };
+		23C11479267BE86500739CAF /* LogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogTableViewCell.xib; sourceTree = "<group>"; };
+		23C8232F2672AB0900CC140F /* TeamsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsRepository.swift; sourceTree = "<group>"; };
+		23C823332672B7ED00CC140F /* CreateTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamViewController.swift; sourceTree = "<group>"; };
+		23C823362672B9FD00CC140F /* CommonValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonValidator.swift; sourceTree = "<group>"; };
+		23DB997D267E97DC004342F3 /* TasksCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCollectionViewController.swift; sourceTree = "<group>"; };
+		23DB997F267E99CF004342F3 /* TaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCollectionViewCell.swift; sourceTree = "<group>"; };
+		23E2951B266FDDC700CF8AA7 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		23E2951D26700B4000CF8AA7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		23E2951F2670104300CF8AA7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		23E29523267021A100CF8AA7 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		23E34B0C26791F3D00B50D21 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		23E34B0E26791FC200B50D21 /* TaskStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStatus.swift; sourceTree = "<group>"; };
+		23E34B12267949C500B50D21 /* TasksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListViewController.swift; sourceTree = "<group>"; };
+		23E34B1426794A4C00B50D21 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		23E34B18267955DD00B50D21 /* BoardCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCardTableViewCell.swift; sourceTree = "<group>"; };
+		23E34B19267955DD00B50D21 /* BoardCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardCardTableViewCell.xib; sourceTree = "<group>"; };
+		363E94CF86D00C0AE1DB560C /* Pods_Scrum_Master_Scrum_MasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scrum_Master_Scrum_MasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3825D5BF42C71BBAF0750719 /* Pods-Scrum MasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrum MasterTests.debug.xcconfig"; path = "Target Support Files/Pods-Scrum MasterTests/Pods-Scrum MasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D5636DE5315F914AEDA38B5 /* Pods_Scrum_Master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scrum_Master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86078D8A86BB71886842F4BD /* Pods-Scrum Master-Scrum MasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrum Master-Scrum MasterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Scrum Master-Scrum MasterUITests/Pods-Scrum Master-Scrum MasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8701CAFF0035CC7139C01F0C /* Pods-Scrum Master-Scrum MasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrum Master-Scrum MasterUITests.release.xcconfig"; path = "Target Support Files/Pods-Scrum Master-Scrum MasterUITests/Pods-Scrum Master-Scrum MasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D47E4B221CEBEDEAC03158F5 /* Pods_Scrum_MasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scrum_MasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69DC61CA6F6793C48B10027 /* Pods-Scrum Master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrum Master.release.xcconfig"; path = "Target Support Files/Pods-Scrum Master/Pods-Scrum Master.release.xcconfig"; sourceTree = "<group>"; };
+		F9C140F452EBB8B4A0F1C7EB /* Pods-Scrum MasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scrum MasterTests.release.xcconfig"; path = "Target Support Files/Pods-Scrum MasterTests/Pods-Scrum MasterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16F1BC97322A9F01B4A78D1 /* Pods_Scrum_Master.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C979A3B44009C829ABD03B11 /* Pods_Scrum_MasterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B53A2FD1A9A79BDEC33F8B /* Pods_Scrum_Master_Scrum_MasterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +170,8 @@
 				2350BAB5266A620F0044429E /* Scrum MasterTests */,
 				2350BAC0266A620F0044429E /* Scrum MasterUITests */,
 				2350BA9D266A620E0044429E /* Products */,
+				A638553224F2944FF071E70B /* Pods */,
+				9C4599A6982F3E6B235EBDC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +188,18 @@
 		2350BA9E266A620E0044429E /* Scrum Master */ = {
 			isa = PBXGroup;
 			children = (
+				23C823352672B9D400CC140F /* Util */,
+				239A2C5926716BE100ED5109 /* Repositories */,
+				239A2C5826716B8400ED5109 /* Views */,
+				23E2952226701F1B00CF8AA7 /* Model */,
+				23E2952126701EF100CF8AA7 /* Core */,
 				2350BA9F266A620E0044429E /* AppDelegate.swift */,
 				2350BAA1266A620E0044429E /* SceneDelegate.swift */,
-				2350BAA3266A620E0044429E /* ViewController.swift */,
 				2350BAA5266A620E0044429E /* Main.storyboard */,
 				2350BAA8266A620F0044429E /* Assets.xcassets */,
 				2350BAAA266A620F0044429E /* LaunchScreen.storyboard */,
 				2350BAAD266A620F0044429E /* Info.plist */,
+				2350BACF266A631D0044429E /* GoogleService-Info.plist */,
 			);
 			path = "Scrum Master";
 			sourceTree = "<group>";
@@ -128,6 +222,100 @@
 			path = "Scrum MasterUITests";
 			sourceTree = "<group>";
 		};
+		239A2C5826716B8400ED5109 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				239A2C52267134A100ED5109 /* TeamCardTableViewCell.swift */,
+				239A2C53267134A100ED5109 /* TeamCardTableViewCell.xib */,
+				23E34B18267955DD00B50D21 /* BoardCardTableViewCell.swift */,
+				23E34B19267955DD00B50D21 /* BoardCardTableViewCell.xib */,
+				23287E9D267A404F009DAC4E /* BoardTableViewCell.swift */,
+				23C11472267BC34700739CAF /* UITextField+Extension.swift */,
+				23C11474267BE54000739CAF /* TaskCardTableViewCell.swift */,
+				23C11475267BE54000739CAF /* TaskCardTableViewCell.xib */,
+				23C11478267BE86500739CAF /* LogTableViewCell.swift */,
+				23C11479267BE86500739CAF /* LogTableViewCell.xib */,
+				23DB997F267E99CF004342F3 /* TaskCollectionViewCell.swift */,
+				236664C6267F9D8900BFC693 /* TaskCollectionViewHeaderCell.swift */,
+				2361E22C268620C90014E905 /* ProfileTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		239A2C5926716BE100ED5109 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				23C8232F2672AB0900CC140F /* TeamsRepository.swift */,
+				2343F9CF2677E8F5008619BA /* ProfilesRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		23C823352672B9D400CC140F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				23C823362672B9FD00CC140F /* CommonValidator.swift */,
+				2399E5AC267694180039B334 /* DateConverter.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		23E2952126701EF100CF8AA7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				23650DFA266E8FF600D72012 /* AuthViewController.swift */,
+				23E2951B266FDDC700CF8AA7 /* RegisterController.swift */,
+				23E2951D26700B4000CF8AA7 /* LoginViewController.swift */,
+				23E2951F2670104300CF8AA7 /* MainViewController.swift */,
+				239A2C502671128400ED5109 /* TeamsListDataSource.swift */,
+				23C823332672B7ED00CC140F /* CreateTeamViewController.swift */,
+				2357515B267557C000849071 /* TeamDetailsViewController.swift */,
+				2399E5A426765AE70039B334 /* BoardsListViewController.swift */,
+				2399E5A6267674140039B334 /* CreateBoardViewController.swift */,
+				23E34B12267949C500B50D21 /* TasksListViewController.swift */,
+				23E34B1426794A4C00B50D21 /* CreateTaskViewController.swift */,
+				23287EA1267A9459009DAC4E /* BoardTabBarConroller.swift */,
+				23DB997D267E97DC004342F3 /* TasksCollectionViewController.swift */,
+				23A786D32680D67D00F45263 /* UpdateTaskViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		23E2952226701F1B00CF8AA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23E29523267021A100CF8AA7 /* Team.swift */,
+				239A2C5626715E5800ED5109 /* Profile.swift */,
+				2399E5A82676789F0039B334 /* Board.swift */,
+				23E34B0C26791F3D00B50D21 /* Task.swift */,
+				23E34B0E26791FC200B50D21 /* TaskStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C4599A6982F3E6B235EBDC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5636DE5315F914AEDA38B5 /* Pods_Scrum_Master.framework */,
+				363E94CF86D00C0AE1DB560C /* Pods_Scrum_Master_Scrum_MasterUITests.framework */,
+				D47E4B221CEBEDEAC03158F5 /* Pods_Scrum_MasterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A638553224F2944FF071E70B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04502B177640049BFF1EC22A /* Pods-Scrum Master.debug.xcconfig */,
+				E69DC61CA6F6793C48B10027 /* Pods-Scrum Master.release.xcconfig */,
+				86078D8A86BB71886842F4BD /* Pods-Scrum Master-Scrum MasterUITests.debug.xcconfig */,
+				8701CAFF0035CC7139C01F0C /* Pods-Scrum Master-Scrum MasterUITests.release.xcconfig */,
+				3825D5BF42C71BBAF0750719 /* Pods-Scrum MasterTests.debug.xcconfig */,
+				F9C140F452EBB8B4A0F1C7EB /* Pods-Scrum MasterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2350BAC6266A620F0044429E /* Build configuration list for PBXNativeTarget "Scrum Master" */;
 			buildPhases = (
+				24E3193A480869974AAD7CC7 /* [CP] Check Pods Manifest.lock */,
 				2350BA98266A620E0044429E /* Sources */,
 				2350BA99266A620E0044429E /* Frameworks */,
 				2350BA9A266A620E0044429E /* Resources */,
+				5496C34A4A61FBF0408504D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +342,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2350BAC9266A620F0044429E /* Build configuration list for PBXNativeTarget "Scrum MasterTests" */;
 			buildPhases = (
+				7C928ADD4B0C54A78425EEDC /* [CP] Check Pods Manifest.lock */,
 				2350BAAE266A620F0044429E /* Sources */,
 				2350BAAF266A620F0044429E /* Frameworks */,
 				2350BAB0266A620F0044429E /* Resources */,
@@ -170,9 +361,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2350BACC266A620F0044429E /* Build configuration list for PBXNativeTarget "Scrum MasterUITests" */;
 			buildPhases = (
+				C50CAE9B2993D9D36644C32E /* [CP] Check Pods Manifest.lock */,
 				2350BAB9266A620F0044429E /* Sources */,
 				2350BABA266A620F0044429E /* Frameworks */,
 				2350BABB266A620F0044429E /* Resources */,
+				8CBD46815129AE015FFB213E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +424,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C11477267BE54000739CAF /* TaskCardTableViewCell.xib in Resources */,
 				2350BAAC266A620F0044429E /* LaunchScreen.storyboard in Resources */,
+				23C1147B267BE86500739CAF /* LogTableViewCell.xib in Resources */,
 				2350BAA9266A620F0044429E /* Assets.xcassets in Resources */,
 				2350BAA7266A620E0044429E /* Main.storyboard in Resources */,
+				239A2C55267134A100ED5109 /* TeamCardTableViewCell.xib in Resources */,
+				23E34B1B267955DD00B50D21 /* BoardCardTableViewCell.xib in Resources */,
+				2350BAD0266A631D0044429E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +451,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24E3193A480869974AAD7CC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scrum Master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5496C34A4A61FBF0408504D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scrum Master/Pods-Scrum Master-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scrum Master/Pods-Scrum Master-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scrum Master/Pods-Scrum Master-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C928ADD4B0C54A78425EEDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scrum MasterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBD46815129AE015FFB213E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scrum Master-Scrum MasterUITests/Pods-Scrum Master-Scrum MasterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scrum Master-Scrum MasterUITests/Pods-Scrum Master-Scrum MasterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scrum Master-Scrum MasterUITests/Pods-Scrum Master-Scrum MasterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C50CAE9B2993D9D36644C32E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scrum Master-Scrum MasterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2350BA98266A620E0044429E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2350BAA4266A620E0044429E /* ViewController.swift in Sources */,
+				236664C7267F9D8900BFC693 /* TaskCollectionViewHeaderCell.swift in Sources */,
+				23C11473267BC34700739CAF /* UITextField+Extension.swift in Sources */,
+				23DB997E267E97DC004342F3 /* TasksCollectionViewController.swift in Sources */,
+				23287E9E267A404F009DAC4E /* BoardTableViewCell.swift in Sources */,
+				2399E5A526765AE70039B334 /* BoardsListViewController.swift in Sources */,
+				23E2951C266FDDC700CF8AA7 /* RegisterController.swift in Sources */,
+				23287EA2267A9459009DAC4E /* BoardTabBarConroller.swift in Sources */,
+				23E34B1526794A4C00B50D21 /* CreateTaskViewController.swift in Sources */,
+				2399E5AD267694180039B334 /* DateConverter.swift in Sources */,
+				23A786D42680D67D00F45263 /* UpdateTaskViewController.swift in Sources */,
+				23E34B0F26791FC200B50D21 /* TaskStatus.swift in Sources */,
+				2361E22D268620C90014E905 /* ProfileTableViewCell.swift in Sources */,
+				239A2C5726715E5800ED5109 /* Profile.swift in Sources */,
+				23E34B13267949C500B50D21 /* TasksListViewController.swift in Sources */,
+				23C823302672AB0900CC140F /* TeamsRepository.swift in Sources */,
+				2399E5A92676789F0039B334 /* Board.swift in Sources */,
 				2350BAA0266A620E0044429E /* AppDelegate.swift in Sources */,
+				2399E5A7267674140039B334 /* CreateBoardViewController.swift in Sources */,
+				23E29524267021A100CF8AA7 /* Team.swift in Sources */,
+				239A2C54267134A100ED5109 /* TeamCardTableViewCell.swift in Sources */,
+				23650DFB266E8FF600D72012 /* AuthViewController.swift in Sources */,
+				23C823342672B7ED00CC140F /* CreateTeamViewController.swift in Sources */,
+				23E34B0D26791F3D00B50D21 /* Task.swift in Sources */,
+				23E295202670104300CF8AA7 /* MainViewController.swift in Sources */,
+				239A2C512671128400ED5109 /* TeamsListDataSource.swift in Sources */,
+				2343F9D02677E8F5008619BA /* ProfilesRepository.swift in Sources */,
+				23E2951E26700B4000CF8AA7 /* LoginViewController.swift in Sources */,
+				23E34B1A267955DD00B50D21 /* BoardCardTableViewCell.swift in Sources */,
 				2350BAA2266A620E0044429E /* SceneDelegate.swift in Sources */,
+				23C1147A267BE86500739CAF /* LogTableViewCell.swift in Sources */,
+				2357515C267557C000849071 /* TeamDetailsViewController.swift in Sources */,
+				23C11476267BE54000739CAF /* TaskCardTableViewCell.swift in Sources */,
+				23C823372672B9FD00CC140F /* CommonValidator.swift in Sources */,
+				23DB9980267E99CF004342F3 /* TaskCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +765,7 @@
 		};
 		2350BAC7266A620F0044429E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04502B177640049BFF1EC22A /* Pods-Scrum Master.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +785,7 @@
 		};
 		2350BAC8266A620F0044429E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69DC61CA6F6793C48B10027 /* Pods-Scrum Master.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +805,7 @@
 		};
 		2350BACA266A620F0044429E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3825D5BF42C71BBAF0750719 /* Pods-Scrum MasterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +828,7 @@
 		};
 		2350BACB266A620F0044429E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C140F452EBB8B4A0F1C7EB /* Pods-Scrum MasterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +851,7 @@
 		};
 		2350BACD266A620F0044429E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86078D8A86BB71886842F4BD /* Pods-Scrum Master-Scrum MasterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +872,7 @@
 		};
 		2350BACE266A620F0044429E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8701CAFF0035CC7139C01F0C /* Pods-Scrum Master-Scrum MasterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

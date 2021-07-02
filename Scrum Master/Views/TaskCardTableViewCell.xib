@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="taskCardCellIdentifier" id="KGk-i7-Jjw" customClass="TaskCardTableViewCell" customModule="Scrum_Master" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bi2-jg-VRy">
+                        <rect key="frame" x="16" y="20" width="86" height="24"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkI-ya-H55">
+                        <rect key="frame" x="16" y="52" width="80" height="21"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                        <color key="textColor" systemColor="systemGray2Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="created at" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDu-D4-Qqi">
+                        <rect key="frame" x="54" y="85" width="69.5" height="20"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                        <color key="textColor" systemColor="systemGray2Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar.badge.clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Rkh-6P-VPd">
+                        <rect key="frame" x="16" y="119" width="31.5" height="29"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="ftJ-Ig-WFo"/>
+                            <constraint firstAttribute="width" constant="30" id="ohN-Xy-LxY"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="so6-DX-BM9">
+                        <rect key="frame" x="16" y="81" width="30" height="27.5"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="cgY-X8-h69"/>
+                            <constraint firstAttribute="width" constant="30" id="xNH-QX-2vy"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="task status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSZ-ZO-TaT">
+                        <rect key="frame" x="221" y="125" width="83" height="24"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="due date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8O-JU-Lcn">
+                        <rect key="frame" x="54" y="122" width="61" height="20"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                        <color key="textColor" systemColor="systemGray2Color"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJE-6L-RBn">
+                        <rect key="frame" x="0.0" y="0.0" width="8" height="160"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="iRt-g6-5G6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="SkI-ya-H55" firstAttribute="top" secondItem="Bi2-jg-VRy" secondAttribute="bottom" constant="8" symbolic="YES" id="8Lz-K8-YJA"/>
+                    <constraint firstAttribute="bottom" secondItem="yJE-6L-RBn" secondAttribute="bottom" id="BPa-7b-0hC"/>
+                    <constraint firstItem="SkI-ya-H55" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="CKc-SC-vOh"/>
+                    <constraint firstItem="hSZ-ZO-TaT" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="Dhl-Fw-ihJ"/>
+                    <constraint firstItem="eDu-D4-Qqi" firstAttribute="leading" secondItem="so6-DX-BM9" secondAttribute="trailing" constant="8" symbolic="YES" id="GPc-Yt-FLg"/>
+                    <constraint firstItem="yJE-6L-RBn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Hmb-gT-Er5"/>
+                    <constraint firstItem="Bi2-jg-VRy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Kq4-L2-PSI"/>
+                    <constraint firstItem="Rkh-6P-VPd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Lbx-YI-vsk"/>
+                    <constraint firstItem="eDu-D4-Qqi" firstAttribute="top" secondItem="SkI-ya-H55" secondAttribute="bottom" constant="12" id="QlY-8w-3tI"/>
+                    <constraint firstItem="Rkh-6P-VPd" firstAttribute="top" secondItem="so6-DX-BM9" secondAttribute="bottom" constant="7.5" id="RRn-yP-ukG"/>
+                    <constraint firstItem="a8O-JU-Lcn" firstAttribute="leading" secondItem="Rkh-6P-VPd" secondAttribute="trailing" constant="8" symbolic="YES" id="T7y-kE-RFW"/>
+                    <constraint firstItem="a8O-JU-Lcn" firstAttribute="top" secondItem="eDu-D4-Qqi" secondAttribute="bottom" constant="17" id="YXe-uV-PUT"/>
+                    <constraint firstItem="so6-DX-BM9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ZEE-bA-7p0"/>
+                    <constraint firstItem="so6-DX-BM9" firstAttribute="top" secondItem="SkI-ya-H55" secondAttribute="bottom" constant="7" id="bRh-fF-WjI"/>
+                    <constraint firstItem="hSZ-ZO-TaT" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="bZF-w6-K6t"/>
+                    <constraint firstItem="so6-DX-BM9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="gG9-uf-6ty"/>
+                    <constraint firstItem="so6-DX-BM9" firstAttribute="top" secondItem="SkI-ya-H55" secondAttribute="bottom" constant="7" id="hev-Bh-mNe"/>
+                    <constraint firstItem="Bi2-jg-VRy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" symbolic="YES" id="p6r-QC-Zku"/>
+                    <constraint firstItem="yJE-6L-RBn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uVC-wZ-Ylw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="createdAtLabel" destination="eDu-D4-Qqi" id="XFK-L1-NNh"/>
+                <outlet property="descriptionLabel" destination="SkI-ya-H55" id="4r7-dt-DHn"/>
+                <outlet property="dueDateLabel" destination="a8O-JU-Lcn" id="9Th-Um-SFx"/>
+                <outlet property="nameLabel" destination="Bi2-jg-VRy" id="oPF-xN-fcw"/>
+                <outlet property="taskColorView" destination="yJE-6L-RBn" id="GLx-nL-2z1"/>
+                <outlet property="taskStatusLabel" destination="hSZ-ZO-TaT" id="NC2-Vq-NnF"/>
+            </connections>
+            <point key="canvasLocation" x="-142.02898550724638" y="-22.098214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="calendar.badge.clock" catalog="system" width="128" height="108"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
