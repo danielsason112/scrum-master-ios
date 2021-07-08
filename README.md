@@ -17,13 +17,8 @@
   </p>
 <br />
 
-<br />
 <p align="center">
 <img src= "https://github.com/danielsason112/scrum-master-ios/blob/main/scrum-master-ios.gif?raw=true" width="200" >
-</p>
-
-<p align="center">
-<img src= "https://github.com/danielsason112/scrum-master-ios/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-07-02%20at%2003.32.30.png?raw=true" width="400" >
 </p>
 
 ## Features
@@ -32,6 +27,10 @@
 - [x] Create Teams, or join existing ones
 - [x] Add new Kanban boards
 - [x] Create or update task cards.
+
+<p align="center">
+<img src= "https://github.com/danielsason112/scrum-master-ios/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-07-02%20at%2003.32.30.png?raw=true" width="400" >
+</p>
 
 ## Requirements
 
